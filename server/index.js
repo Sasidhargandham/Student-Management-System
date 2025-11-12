@@ -9,7 +9,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5173", // your React frontend port
+    origin: "https://student-management-system-eight-snowy.vercel.app", // your React frontend port
     methods: ["GET", "POST", "PUT", "DELETE"]
 }));
 
